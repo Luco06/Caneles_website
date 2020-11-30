@@ -1,0 +1,154 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+body{
+    background:rgba(237, 222, 222, 1);
+}
+
+main {
+    width: 100%;
+    min-height: 100vh;
+    background: beige;
+}
+
+header {
+    width: 30%;
+    min-height: 50px;
+    padding: 5px 0 5px 20px;
+   display: inline;
+}
+
+header>a>figure,
+header>a {
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    float: left;
+    
+}
+
+nav {
+    min-width: 400px;
+    min-height: 40px;
+    float: right;
+    margin-right: 20px;
+    border: solid;
+    border-radius: 40px;
+    
+}
+
+.navigation>li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    opacity: .8;
+    float: left;
+    box-sizing: border-box;
+}
+
+li>a:first-child {
+    padding: 14px 16px;
+    margin: 14px 16px;
+}
+
+#histoire{
+    width: 600px;
+    box-sizing: border-box;
+    border: solid 1px black;
+    text-align: center;
+    margin: auto;
+    font-size: 140%;
+    margin-top: 200px;
+    box-shadow: 60px -16px teal
+
+}
+#bouffe{
+    margin-top:100px ;
+    width: 100%;
+    height: 160px;
+    border: solid black 2px;
+    display: flex;
+    justify-content: center;
+}
+
+#sale{
+    width: 235px;
+    list-style: none;
+}
+
+#sucre {
+    width: 235px;
+    list-style: none;
+
+}
+
+
+
+
+
+form {
+    width: 400px;
+    padding: 1em;
+    border: solid 1px black;
+    border-radius: 1em;
+}
+
+form+article {
+    margin-top: 2em;
+}
+
+label {
+    float: left;
+    width: 90px;
+    font-family: sans-serif;
+}
+
+input,
+textarea {
+    font: 1em sans-serif;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 1em;
+    margin-top: 2px;
+    padding-top: 2px;
+}
+
+input:focus,
+textarea:focus {
+    border-color: yellowgreen;
+}
+
+textarea {
+    vertical-align: top;
+    height: 5em;
+    width: 300px;
+}
+
+.button {
+    padding-left: 90px;
+}
+
+button {
+    margin-left: 5em;
+    display: inline-block;
+}
+
+.part,
+.ent {
+    width: 50%;
+}
+
+input:invalid {
+    border: 2px solid red;
+}
+
+#alert {
+    border: solid red;
+    max-width: 160px;
+    height: 100px;
+    margin: auto;
+}
